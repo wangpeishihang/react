@@ -1,0 +1,22 @@
+.ant-select-selection{
+    border: none;
+}
+.ant-select-selection:hover{
+
+}
+.all{
+    height: 100%;
+    background: whitesmoke;
+}
+.pa{
+    padding-left: 10px;
+}
+.top{
+    margin-top: 20px;
+}
+.btt{
+    border-bottom:1px solid #d9d9d9 ;
+}
+.am-list-item .am-list-line .am-list-content{
+    font-size: 14px;
+}

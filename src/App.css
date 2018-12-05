@@ -1,0 +1,264 @@
+
+
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 40vmin;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.size-but{
+    width: 90%;
+    margin: 0 auto;
+}
+.size-butactive{
+    color: white;
+}
+.charts {
+    width: 100%;
+    height: 300px
+}
+.title{
+    height: 40px;
+    line-height: 40px;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    background: white;
+}
+.title-flex{
+    width: 20%;
+}
+.toptip{
+    font-size: 12px;
+    color: #9d9d9d;
+    text-align: center;
+    line-height: 24px;
+    height: 24px;
+}
+.centertip{
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+}
+.tip{
+    height: 55px;
+    line-height: 55px;
+    background: white;
+    margin-top: 2px;
+    border-bottom: 1px solid whitesmoke;
+
+}
+.bottomtip{
+    height: 45px;
+    display: flex;
+    line-height: 45px;
+    width:100% ;
+    background: white;
+    border-bottom: 1px solid whitesmoke;
+    margin-bottom: 5px;
+}
+.bottomtip-flex p{
+    margin-bottom: 0;
+
+}
+.bottomtip-flex{
+    width: 50%;
+    border-right: 1px solid whitesmoke;
+    font-size: 8px;
+    padding-left: 10px;
+    color: #9d9d9d;
+}
+.chartstitle{
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.xiangxitip1{
+    height: auto;
+    display: flex;
+    width:100% ;
+    background: white;
+    flex-wrap: wrap;
+    padding-left: 10px;
+
+}
+.xiangxitip-flex1{
+    width: 33%;
+    font-size: 10px;
+    height: 30px;
+    line-height: 30px;
+    color: #666666;
+}
+.xiangxitip{
+    height: 30px;
+    line-height: 30px;
+    display: flex;
+    width: 100%;
+    background: white;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #d9d9d9;
+
+}
+.xiangxitip-flex{
+    width: 33%;
+    font-size: 8px;
+}
+.bd {
+    padding-left: 10px;
+}
+.bd_p{
+    font-size: 16px;
+}
+.bd_span{
+    font-size: 14px;
+    color: #9d9d9d;
+}
+.bd_nextp{
+    font-size: 14px;
+    color: #9d9d9d;
+}
+.nextbutton{
+    font-size: 14px;
+}
+.nextbutton1{
+    margin-top: 60px;
+    font-size: 14px;
+    color: red;
+    text-align: center;
+}
+.fankui{
+    width: 95%;
+    height: 100px;
+    margin: 20px 10px;
+}
+.lianxi{
+    height: 40px;
+    width: 95%;
+    margin: 10px;
+}
+.buttontop{
+    margin-top: 50px;
+}
+.icon {
+    width: 1em; height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+.weui-grid{
+    background: white;
+
+}
+.logo{
+    text-align: center;
+    margin: 70px;
+}
+.weui-grid__icon{
+    text-align: center;
+}
+.weui-btn_primary{
+    background: #2f8dfd;
+}
+.myshoukuan{
+    width: 98%;
+    height: 30px;
+    line-height: 30px;
+    display: flex;
+    margin: 5px auto;
+    border-radius: 5px;
+    background: white;
+    text-align: center;
+}
+.myshoukuan-flex{
+    width: 25%;
+}
+.active{
+    color: white;
+    background: #077cff;
+    border-radius:5px;
+}
+.singleSelect{
+    width: 30%;
+    border: none;
+}
+.selectdiv{
+    width: 50%;
+    text-align: center;
+    background: white;
+}
+.selectflex{
+    display: flex;
+    width: 100%;
+}
+.select{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #d9d9d9;
+
+}
+.select-flex{
+    width: 50%;
+    background: white;
+}
+.select-flex1{
+    width: 75%;
+    background: white;
+}
+.xingming{
+    border: none;
+    border-bottom: 1px solid #d9d9d9;
+    width: 100%;
+}
+.camera{
+    height: 50px;
+    line-height: 50px;
+    background: white;
+    width: 100%;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #d9d9d9;
+}
+.date-picker-list .am-list-item .am-list-line .am-list-extra {
+    flex-basis: initial;
+}
+.money{
+    height: 120px;
+    line-height: 120px;
+    font-size: 30px;
+    text-align: center;
+    background: #ff714f;
+    color: white;
+}
+.fullpop{
+    height: 100%;
+}

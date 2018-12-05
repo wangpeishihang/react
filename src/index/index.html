@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+    <title></title>
+    <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+    <script src="https://cdn.staticfile.org/jquery/2.1.4/jquery.min.js"></script>
+    <script src="./js/jquery-weui.js"></script>
+    <link rel="stylesheet" href="./css/jquery-weui.css" type="text/css">
+    <link rel="stylesheet" href="./css/weui.css" type="text/css">
+    <link rel="stylesheet" href="./css/main.css" type="text/css">
+
+</head>
+
+<body>
+
+
+<div class="weui-tab">
+
+    <div class="weui-tab__bd">
+        <!--第一页面 工作台-->
+        <div id="tab1" class="weui-tab__bd-item weui-tab__bd-item--active">
+            <div id="example"></div>
+        </div>
+
+        <!--第二页面 业务-->
+        <div id="tab2" class="weui-tab__bd-item">
+            <div class="weui-grids" style="margin: 10px 0">
+                <div class="fenqi">收款分期</div>
+                <a href="#" class="weui-grid js_grid" style="background: white">
+                    <div class="weui-grid__icon">
+                        <img src="img/icon.png" alt="">
+                    </div>
+                    <p class="weui-grid__label">
+                        Button
+                    </p>
+                </a>
+                <a href="#" class="weui-grid js_grid" style="background: white">
+                    <div class="weui-grid__icon">
+                        <img src="img/icon.png" alt="">
+                    </div>
+                    <p class="weui-grid__label">
+                        List
+                    </p>
+                </a>
+                <a href="#" class="weui-grid js_grid" style="background: white">
+                    <div class="weui-grid__icon">
+                        <img src="img/icon.png" alt="">
+                    </div>
+                    <p class="weui-grid__label">
+                        List
+                    </p>
+                </a>
+
+            </div>
+            <div class="weui-grids" style="margin: 10px 0">
+                <div class="fenqi">购销操作</div>
+                <a href="#" class="weui-grid js_grid" style="background: white">
+                    <div class="weui-grid__icon">
+                        <img src="img/icon.png" alt="">
+                    </div>
+                    <p class="weui-grid__label">
+                        Button
+                    </p>
+                </a>
+                <a href="#" class="weui-grid js_grid" style="background: white">
+                    <div class="weui-grid__icon">
+                        <img src="img/icon.png" alt="">
+                    </div>
+                    <p class="weui-grid__label">
+                        List
+                    </p>
+                </a>
+                <a href="#" class="weui-grid js_grid" style="background: white">
+                    <div class="weui-grid__icon">
+                        <img src="img/icon.png" alt="">
+                    </div>
+                    <p class="weui-grid__label">
+                        List
+                    </p>
+                </a>
+
+            </div>
+            <div class="weui-grids" style="margin: 10px 0">
+                <div class="fenqi">审批流程</div>
+                <a href="#" class="weui-grid js_grid" style="background: white">
+                    <div class="weui-grid__icon">
+                        <img src="img/icon.png" alt="">
+                    </div>
+                    <p class="weui-grid__label">
+                        Button
+                    </p>
+                </a>
+                <a href="#" class="weui-grid js_grid" style="background: white">
+                    <div class="weui-grid__icon">
+                        <img src="img/icon.png" alt="">
+                    </div>
+                    <p class="weui-grid__label">
+                        List
+                    </p>
+                </a>
+                <a href="#" class="weui-grid js_grid" style="background: white">
+                    <div class="weui-grid__icon">
+                        <img src="img/icon.png" alt="">
+                    </div>
+                    <p class="weui-grid__label">
+                        List
+                    </p>
+                </a>
+
+            </div>
+        </div>
+        <!--第三页面 我的-->
+        <div id="tab3" class="weui-tab__bd-item">
+            <div class="weui-cells">
+                <div class="weui-cell">
+                    <div class="weui-cell__hd"><img src="img/icon.png"></div>
+                    <div class="weui-cell__bd">
+                        <p>标题文字</p>
+                    </div>
+                    <div class="weui-cell__ft">说明文字</div>
+                </div>
+
+            </div>
+            <div class="weui-cells">
+                <a class="weui-cell weui-cell_access" href="javascript:;">
+                    <div class="weui-cell__bd">
+                        <p>帮助与反馈</p>
+                    </div>
+                    <div class="weui-cell__ft">
+                    </div>
+                </a>
+                <a class="weui-cell weui-cell_access" href="javascript:;">
+                    <div class="weui-cell__bd">
+                        <p>关于久通</p>
+                    </div>
+                    <div class="weui-cell__ft">
+                    </div>
+                </a>
+            </div>
+            <div class="weui-cells" style="text-align: center">
+                <a class="weui-cell weui-cell_access" href="javascript:;">
+                    <div class="weui-cell__bd">
+                        <p>退出登录</p>
+                    </div>
+
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="weui-tabbar">
+        <a href="#tab1" class="weui-tabbar__item weui-bar__item--on">
+            <!--   <span class="weui-badge" style="position: absolute;top: -.4em;right: 1em;">8</span>-->
+            <div class="weui-tabbar__icon">
+                <img src="img/icon.png" alt="">
+            </div>
+            <p class="weui-tabbar__label">工作台</p>
+        </a>
+        <a href="#tab2" class="weui-tabbar__item">
+            <div class="weui-tabbar__icon">
+                <img src="img/icon.png" alt="">
+            </div>
+            <p class="weui-tabbar__label">业务</p>
+        </a>
+        <a href="#tab3" class="weui-tabbar__item">
+            <div class="weui-tabbar__icon">
+                <img src="img/icon.png" alt="">
+            </div>
+            <p class="weui-tabbar__label">我</p>
+        </a>
+    </div>
+</div>
+<script type="text/babel">
+
+    class UserGist extends React.Component {
+        constructor(props) {
+            super(props);
+            this.state = {dataList: ''};
+        }
+
+
+        componentDidMount() {
+            this.setState({
+                dataList: {
+                    "success": true,
+                    "tCount": 0,
+                    "tAmount": 0,
+                    "tProfit": 0,
+                    "yCount": 0,
+                    "yAmount": 0,
+                    "yProfit": 0,
+                    "mobipayToday": 0,
+                    "mobipayWeek": 0,
+                    "mobipayMonth": 0
+                }
+            })
+            /*   $.showLoading('数据加载中')
+               this.serverRequest = $.post('https://nightly-dev.99tone.com/mapi/data/sales/reportDataPreview', function (result) {
+                   if(result.success==true){
+                       $.hideLoading()
+                       this.setState({
+                           dataList: result
+                       });
+                   }
+
+               }.bind(this));*/
+        }
+
+        componentWillUnmount() {
+            /*  this.serverRequest.abort();*/
+        }
+
+        render() {
+            return (
+                <div className="gezi">
+
+                    <div className="gezi-flex">￥{this.state.dataList.tCount}
+                        <Link to="/home"></Link>
+                        <p className="gezi-flex-text">今日销量</p>
+                    </div>
+                    <div className="gezi-flex">￥{this.state.dataList.tAmount}
+                        <p className="gezi-flex-text">今日销售额</p>
+                    </div>
+                    <div className="gezi-flex">￥{this.state.dataList.tProfit}
+                        <p className="gezi-flex-text">今日毛利</p>
+                    </div>
+                    <div className="gezi-flex">￥{this.state.dataList.yCount}
+                        <p className="gezi-flex-text">昨日销量</p>
+                    </div>
+                    <div className="gezi-flex">￥{this.state.dataList.yAmount}
+                        <p className="gezi-flex-text">昨日销售额</p>
+                    </div>
+                    <div className="gezi-flex">￥{this.state.dataList.yProfit}
+                        <p className="gezi-flex-text">昨日毛利</p>
+                    </div>
+                    <div className="gezi-flex">￥{this.state.dataList.mobipayToday}
+                        <p className="gezi-flex-text">今日收款</p>
+                    </div>
+                    <div className="gezi-flex">￥{this.state.dataList.mobipayWeek}
+                        <p className="gezi-flex-text">本周收款</p>
+                    </div>
+                    <div className="gezi-flex">￥{this.state.dataList.mobipayMonth}
+                        <p className="gezi-flex-text">本月收款</p>
+                    </div>
+
+
+                </div>
+            );
+        }
+    }
+
+    ReactDOM.render(
+        <UserGist source="https://api.github.com/users/octocat/gists"/>,
+        document.getElementById('root')
+    );
+
+
+
+</script>
+
+</body>
+</html>
